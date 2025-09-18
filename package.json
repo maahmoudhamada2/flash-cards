@@ -1,0 +1,30 @@
+{
+  "name": "flash-cards",
+  "version": "1.0.0",
+  "description": "https://roadmap.sh/projects/flash-cards",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maahmoudhamada2/flash-cards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/maahmoudhamada2/flash-cards/issues"
+  },
+  "homepage": "https://github.com/maahmoudhamada2/flash-cards#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "vite": "^7.1.6"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
