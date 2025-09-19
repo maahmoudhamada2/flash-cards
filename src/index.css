@@ -11,7 +11,7 @@ article {
     margin: 50px auto;
     display: flex;
     flex-direction: column;
-    gap: 2rem
+    gap: 0.5rem
 }
 
 article h1 {
@@ -22,7 +22,7 @@ article h1 {
     width: 100%;
     height: 40px;
     padding: 0.2rem;
-    border: 1px solid #b5b5b596;
+    border: 2px solid black;
     border-radius: 10px;
     position: relative;
 }
@@ -30,7 +30,7 @@ article h1 {
 .bar-indicator {
     width: 100%;
     height: 100%;
-    background-color: #b5b5b596;
+    background-color: #f7df1e;
     border-radius: 7px;
 }
 
@@ -66,7 +66,7 @@ main {
     align-items: center;
     position: absolute;
     backface-visibility: hidden;
-    background-color: #b5b5b596;
+    background-color: #f7df1e;
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
@@ -74,6 +74,12 @@ main {
 
 .face.back {
     transform: rotateY(180deg);
+    padding: 3rem;
+}
+
+.face.front {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .flip {
@@ -82,7 +88,7 @@ main {
 
 footer {
     width: 100%;
-    background-color: #b5b5b596;
+    background-color: #f7df1e;
     padding: 0.7rem;
     display: flex;
     justify-content: space-between;
