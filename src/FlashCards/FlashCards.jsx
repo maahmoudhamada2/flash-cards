@@ -117,7 +117,7 @@ export default function FlashCards() {
         <ProgressBar questionIdx={questionIdx} />
       </header>
       <main>
-        <CardContent qna={questions[questionIdx]} />
+        <CardContent qna={questions[questionIdx]} showAnswer={showAnswer} />
       </main>
       <footer>
         <NavigationButtons

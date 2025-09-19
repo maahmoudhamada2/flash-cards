@@ -76,7 +76,7 @@ main {
     transform: rotateY(180deg);
 }
 
-.card:hover {
+.flip {
     transform: rotateY(-180deg)
 }
 
