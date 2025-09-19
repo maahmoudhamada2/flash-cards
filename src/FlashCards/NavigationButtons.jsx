@@ -12,7 +12,9 @@ export default function NavigationButtons({
   return (
     <>
       <button onClick={handlePreviousClick}>&lt; Previous</button>
-      <button onClick={() => setShowAnswer((prev) => !prev)}>
+      <button
+        className="show-answer-btn"
+        onClick={() => setShowAnswer((prev) => !prev)}>
         {showAnswer ? "Hide Answer" : "Show Answer"}
       </button>
       <button onClick={handleNextClick}>Next &gt;</button>

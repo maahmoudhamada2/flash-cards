@@ -79,3 +79,25 @@ main {
 .card:hover {
     transform: rotateY(-180deg)
 }
+
+footer {
+    width: 100%;
+    background-color: #b5b5b596;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 10px 10px;
+}
+
+footer button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    color: gray;
+}
+
+
+.show-answer-btn {
+    color: black;
+    font-weight: bold;
+}
