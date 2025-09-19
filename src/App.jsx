@@ -1,1 +1,4 @@
-export default function App() {}
+import FlashCards from "./FlashCards/FlashCards";
+export default function App() {
+  return <FlashCards />;
+}
